@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .box{
+            height: 300px;
+            width: 500px;
+            border: 1px solid transparent;
+            margin: 200px auto;
+            /* padding: 0px 6.5px 0px 6.5px; */
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            border-radius: 18px;
+            box-shadow: 3px 3px 8px gray;
+            margin-bottom: 100px;
+        }
+        
+        
+        #userInfo{
+            display: inline-block;
+            height: 120px;
+            width: 200px;
+            margin-left:250px;
+            
+            vertical-align: top;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0px 20px;
+        }
+    
+        .adharNo{
+            height: 55px;
+            width: 100%;
+            border: 1px solid transparent;
+            text-align: center;
+            line-height: 55px;
+           
+        }
+        .adharFooter{
+            height: 55px;
+            width: 100%;
+            border-top: 3px solid red;
+            text-align: center;
+            line-height:60px;
+        }
+        .footText{
+            font-size: 10px;
+            font-weight: bold;
+        }
+        #footText1{
+            color: red;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+         
+            <img class="lion" src="e:\Guvi class\Frontend\Backround img\AdharLogo.png" alt="lion"/>
+           <img class="ruba" src="e:\Guvi class\Frontend\Backround img\Ruba Scanned Photo.jpg" alt="ruba">
+        <div id="userInfo">
+            <p id="userName">ரூபா</p>
+            <p id="userDob">19-05-1993</p>
+            <p id="userGender">பெண்</p>
+            <p id="useraddress">தமிழ்நாடு</p>
+        </div>
+        <div class="userQR" id="userQR">
+
+        </div>
+        <div class="adharNo"><h1 id="adharNo">0000 0000 0000</h1></div>
+        <div class="adharFooter" id="adharFooter">
+            <span class="footText" id="footText1">இந்திய தனித்துவ </span>
+            <span class="footText" id="footText2">- அடையாள ஆணையம்</span>
+        </div>
+    </div>

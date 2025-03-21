@@ -1,0 +1,14 @@
+
+.lion{
+    height: 37px;
+    margin:5px 5px 5px 5px;
+    
+
+}
+.ruba{
+    display: flex;
+    flex-direction: column;
+    height: 37px;
+    margin:5px 5px 5px 5px;
+    display:inline-flex;
+}
